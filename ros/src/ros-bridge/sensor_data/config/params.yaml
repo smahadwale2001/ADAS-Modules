@@ -1,0 +1,6 @@
+cam_count: 1
+camera1: {
+    im_width: 800,
+    im_height: 500,
+    display: 'True',
+}

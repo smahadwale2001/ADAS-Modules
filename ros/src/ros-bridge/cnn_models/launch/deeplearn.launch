@@ -1,0 +1,5 @@
+<launch>
+<!--<node pkg="cnn_models" type="car_pedestrian.py" name="car_pedestrian" output="screen"/>
+<node pkg="cnn_models" type="lane_segmentation.py" name="lane_segmentation" output="screen"/>-->
+<node pkg="cnn_models" type="lane_detection.py" name="lane_detection" output="screen"/>
+</launch>

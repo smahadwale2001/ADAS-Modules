@@ -1,0 +1,6 @@
+
+<launch>
+<node name="sensors" pkg="sensor_data" type="sensors.py" output="screen">
+<rosparam file="$(find sensor_data)/config/params.yaml" />
+</node>
+</launch>

@@ -1,0 +1,123 @@
+{
+    "sensors": [
+        {
+            "type": "sensor.camera.rgb",
+            "id": "front",
+            "x": 0.7, "y": 0.0, "z": 1.6, "roll": 0.0, "pitch": 0.0, "yaw": 0.0,
+            "width": 416,
+            "height": 256,
+            "fov": 100
+        },
+	{
+            "type": "sensor.camera.rgb",
+            "id": "left",
+            "x": 0.7, "y": -0.5, "z": 1.6, "roll": 0.0, "pitch": 0.0, "yaw": -45.0,
+            "width": 416,
+            "height": 256,
+            "fov": 100
+        },
+	{
+            "type": "sensor.camera.rgb",
+            "id": "right",
+            "x": 0.7, "y": 0.5, "z": 1.6, "roll": 0.0, "pitch": 0.0, "yaw": 45.0,
+            "width": 416,
+            "height": 256,
+            "fov": 100
+        },
+	{
+            "type": "sensor.camera.rgb",
+            "id": "rear",
+            "x": -1.8, "y": 0.0, "z": 1.6, "roll": 0.0, "pitch": 0.0, "yaw": 180.0,
+            "width": 416,
+            "height": 256,
+            "fov": 130
+        },
+	{
+            "type": "sensor.camera.depth",
+            "id": "front",
+            "x": 0.7, "y": 0.0, "z": 1.6, "roll": 0.0, "pitch": 0.0, "yaw": 0.0,
+            "width": 416,
+            "height": 256,
+            "fov": 100
+        },
+	{
+            "type": "sensor.camera.depth",
+            "id": "left",
+            "x": 0.7, "y": -0.5, "z": 1.6, "roll": 0.0, "pitch": 0.0, "yaw": -45.0,
+            "width": 416,
+            "height": 256,
+            "fov": 100
+        },
+	{
+            "type": "sensor.camera.depth",
+            "id": "right",
+            "x": 0.7, "y": 0.5, "z": 1.6, "roll": 0.0, "pitch": 0.0, "yaw": 45.0,
+            "width": 416,
+            "height": 256,
+            "fov": 100
+        },
+	{
+            "type": "sensor.camera.depth",
+            "id": "rear",
+            "x": -1.8, "y": 0.0, "z": 1.6, "roll": 0.0, "pitch": 0.0, "yaw": 180.0,
+            "width": 416,
+            "height": 256,
+            "fov": 130
+        },
+	{
+            "type": "sensor.camera.semantic_segmentation",
+            "id": "front",
+            "x": 0.7, "y": 0.0, "z": 1.6, "roll": 0.0, "pitch": 0.0, "yaw": 0.0,
+            "width": 416,
+            "height": 256,
+            "fov": 100
+        },
+	{
+            "type": "sensor.camera.semantic_segmentation",
+            "id": "left",
+            "x": 0.7, "y": -0.5, "z": 1.6, "roll": 0.0, "pitch": 0.0, "yaw": -45.0,
+            "width": 416,
+            "height": 256,
+            "fov": 100
+        },
+	{
+            "type": "sensor.camera.semantic_segmentation",
+            "id": "right",
+            "x": 0.7, "y": 0.5, "z": 1.6, "roll": 0.0, "pitch": 0.0, "yaw": 45.0,
+            "width": 416,
+            "height": 256,
+            "fov": 100
+        },
+	{
+            "type": "sensor.camera.semantic_segmentation",
+            "id": "rear",
+            "x": -1.8, "y": 0.0, "z": 1.6, "roll": 0.0, "pitch": 0.0, "yaw": 180.0,
+            "width": 416,
+            "height": 256,
+            "fov": 130
+        },
+        {
+            "type": "sensor.camera.rgb",
+            "id": "view",
+            "x": -4.5, "y": 0.0, "z": 2.8, "roll": 0.0, "pitch": -20.0, "yaw": 0.0,
+            "width": 400,
+            "height": 300,
+            "fov": 100
+        },
+        {
+            "type": "sensor.other.gnss",
+            "id": "gnss1",
+            "x": 1.0, "y": 0.0, "z": 2.0
+        },
+        {
+            "type": "sensor.other.collision",
+            "id": "collision1",
+            "x": 0.0, "y": 0.0, "z": 0.0
+        },
+        {
+            "type": "sensor.other.lane_invasion",
+            "id": "laneinvasion1",
+            "x": 0.0, "y": 0.0, "z": 0.0
+        }
+    ]
+}
